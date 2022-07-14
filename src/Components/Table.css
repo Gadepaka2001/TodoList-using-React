@@ -1,0 +1,74 @@
+.container{
+    display: flex;
+    justify-content: center;
+}
+.Title{
+    display: block;
+    color: blue;
+    background-color: black;
+}
+.todo{
+    color: aquamarine;
+    background-color: blueviolet;
+}
+.Input{
+    border: 2px solid black;
+    padding: 10px;
+    width: 1000px;
+}
+.btn{
+    background-color: rgb(46, 46, 42);
+    padding: 5px;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    font-size: xx-large;
+}
+.delete
+{
+    background-color: red;
+    color: aliceblue;
+    padding: 1px;
+    border-radius: 20px;
+    margin-left: 2px;
+}
+#all
+{
+    padding: 5px;
+    font-weight: bold;
+    background-color: aqua;
+    cursor: pointer;
+    color: azure;
+}
+#active
+{
+    padding: 5px;
+    font-weight: bold;
+    margin-left: 10px;
+    background-color: aqua;
+    color: azure;
+    cursor: pointer;
+}
+#completed
+{
+    padding: 5px;
+    margin-left: 10px;
+    font-weight: bold;
+    background-color: aqua;
+    color: azure;
+    cursor: pointer;
+}
+#update-input{
+    border: 2px solid greenyellow;
+    padding: 5px;
+    margin-top: 20px;
+    width: 500px;
+}
+.edit{
+    margin-top: 20px;
+}
+.footer
+{
+    display: flex;
+    justify-content: center;
+}
