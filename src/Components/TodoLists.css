@@ -36,7 +36,7 @@
 {
     padding: 5px;
     font-weight: bold;
-    background-color: aqua;
+    border-radius: 50%;
     cursor: pointer;
     color: azure;
 }
@@ -45,8 +45,9 @@
     padding: 5px;
     font-weight: bold;
     margin-left: 10px;
-    background-color: aqua;
+    border-radius: 50%;
     color: azure;
+    background-color: blue;
     cursor: pointer;
 }
 #completed
@@ -54,7 +55,7 @@
     padding: 5px;
     margin-left: 10px;
     font-weight: bold;
-    background-color: aqua;
+    border-radius: 50%;
     color: azure;
     cursor: pointer;
 }
@@ -67,7 +68,7 @@
 .edit{
     margin-top: 20px;
 }
-.footer
+.filterIcons
 {
     display: flex;
     justify-content: center;
